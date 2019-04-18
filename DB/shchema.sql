@@ -3,9 +3,10 @@ CREATE DATABASE burgers_db;
 USE burgers_db;
 
 --CREATE TABLE
-CREATE TABLE burgers(
-    id INT NOT NULL AUTO_INCREMENT,
+CREATE TABLE restaurant_burger(
+    id INT AUTO_INCREMENT NOT NULL,
     burger_name VARCHAR(30) NOT NULL,
     is_favorite BOOLEAN,
-    PRIMARY KEY(ID)
-)
+    createdAt TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY(id)
+);
