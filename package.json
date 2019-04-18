@@ -17,5 +17,7 @@
     "method-override": "^3.0.0",
     "mysql": "^2.16.0",
     "nodemon": "^1.18.11"
-  }
+  },
+  "scripts": {
+    "start": "node server.js"
 }
