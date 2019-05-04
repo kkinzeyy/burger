@@ -4,7 +4,7 @@ let methodOverride= require('method-override');
 let bodyParser= require('body-parser');
 let exphbs= require('express-handlebars');
 let routes= require('./routes/handlers');
-const port= process.env.port || 9001;
+const port= process.env.PORT || 9001;
 let app= express();
 
 //bodyparser+methodOverride
